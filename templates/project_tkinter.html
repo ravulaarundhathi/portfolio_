@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+
+{% block title %}Finishing School — GUI Programming (Tkinter) - My Portfolio{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <div class="container">
+        <h1>Finishing School — GUI Programming (Tkinter)</h1>
+        <p class="breadcrumb"><a href="{{ url_for('portfolio') }}">Portfolio</a> > Finishing School — GUI Programming (Tkinter)</p>
+    </div>
+</div>
+
+<section class="project-detail">
+    <div class="container">
+        <div class="project-detail-grid">
+            <div class="project-detail-main">
+                <div class="project-image-detail">
+                    <div class="placeholder-image-large">G</div>
+                </div>
+                
+                <div class="project-description">
+                    <h2>Project Overview</h2>
+                    <p>This project documents the GUI development training completed as part of the Infosys Foundation Finishing School (Phase 2). The course focused on building user-friendly desktop applications with Python and Tkinter, emphasizing practical employability skills.</p>
+
+                    <h3>Key Learning Highlights</h3>
+                    <ul>
+                        <li>Introduction to GUI programming and PyCharm setup</li>
+                        <li>Tkinter basics: windows, titles, icons, and layout management using Grid</li>
+                        <li>Widget usage: buttons, labels, entry fields, menus, toolbars</li>
+                        <li>Event handling and integrating GUI with application logic</li>
+                        <li>Graphics & canvas shapes, working with images in GUIs</li>
+                        <li>Advanced widgets: Listbox, Combobox, Treeview and status/message boxes</li>
+                    </ul>
+
+                    <h3>Applied Work</h3>
+                    <p>Implemented small GUI applications demonstrating the above concepts, practiced event-driven programming, and prepared projects for demonstration and evaluation.</p>
+
+                    <h3>Repository</h3>
+                    <p>View the course projects and sample code on GitHub: <a href="https://github.com/ravulaarundhathi/blog_App-tkinter_ex-" target="_blank">https://github.com/ravulaarundhathi/blog_App-tkinter_ex-</a></p>
+                </div>
+            </div>
+            
+            <div class="project-detail-sidebar">
+                <div class="info-box">
+                    <h3>Technologies Used</h3>
+                    <div class="tech-list">
+                        <span class="tech-badge-large">Python</span>
+                        <span class="tech-badge-large">Tkinter</span>
+                        <span class="tech-badge-large">PyCharm</span>
+                    </div>
+                </div>
+                
+                <div class="info-box">
+                    <h3>Course Details</h3>
+                    <ul class="details-list">
+                        <li><strong>Program:</strong> Finishing School for Employability — Phase 2</li>
+                        <li><strong>Provider:</strong> Infosys Foundation</li>
+                        <li><strong>Type:</strong> GUI Training / Coursework</li>
+                        <li><strong>Status:</strong> Completed</li>
+                    </ul>
+                </div>
+                
+                <div class="project-actions">
+                    <a href="https://github.com/ravulaarundhathi/blog_App-tkinter_ex-" class="btn btn-primary" target="_blank">View on GitHub</a>
+                    <a href="{{ url_for('portfolio') }}" class="btn btn-secondary">Back to Portfolio</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
